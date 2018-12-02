@@ -2,7 +2,6 @@
 // Licensed under the MIT license.
 
 package com.brigadier.utilities.exception;
-import com.brigadier.state.state.*;
 
 public interface BuiltInExceptionProvider {
     Dynamic2CommandExceptionType doubleTooLow();

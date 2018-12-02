@@ -15,6 +15,4 @@ module com.brigadier.interpreter {
     requires jmh.generator.annprocess;
     exports com.brigadier.interpreter.tree to  com.brigadier.userinterface;
     exports com.brigadier.interpreter.builder to com.brigadier.userinterface;
-    exports com.brigadier.interpreter.context to com.brigadier.userinterface;
-
 }
